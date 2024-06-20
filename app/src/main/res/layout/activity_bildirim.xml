@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F6F6"
+    >
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="344dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="164dp"
+        android:background="@color/colorPurple"
+        android:text="There are only 15 minutes left until you take your blood pressure medication at noon."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/switch1" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="344dp"
+        android:layout_height="70dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorPurple"
+        android:text="There's only one hour left until your meeting with Buse at eight o'clock. Get ready."
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView80"
+        android:textColor="@color/colorPurple"
+        android:layout_width="54dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:textStyle="bold"
+        android:layout_marginEnd="28dp"
+        android:text="2 saat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+
+    <TextView
+        android:id="@+id/textView90"
+        android:textColor="@color/colorPurple"
+        android:layout_width="54dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="28dp"
+        android:textStyle="bold"
+        android:text="3 saat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView100"
+        android:textColor="@color/white"
+        android:layout_width="344dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorPurple"
+        android:text="Don't forget to take your b12 supplement pills before sleeping."
+        android:textStyle="bold"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="54dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="28dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPurple"
+        android:text="6 saat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView100" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:textColor="@color/colorPurple"
+        android:layout_width="179dp"
+        android:layout_height="34dp"
+        android:textStyle="bold"
+        android:text="Bildirimler"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="70dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="236dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.541"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="142dp"
+        android:layout_height="146dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="142dp"
+        android:layout_height="146dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

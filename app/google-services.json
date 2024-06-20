@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "964184558379",
+    "project_id": "rememberme-d8716",
+    "storage_bucket": "rememberme-d8716.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964184558379:android:dfd3434dcefd0842d5d36e",
+        "android_client_info": {
+          "package_name": "com.example.myproje"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeNe4nPhhjGp_Bvrdf6h_g8ed8Aw3K39E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

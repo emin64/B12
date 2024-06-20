@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginEnd="20dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search for games, videos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewbaslık"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewbaslık"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="25dp"
+        android:text="ACTİVİTY STORE"
+        android:textColor="@color/colorPurple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/search_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPurple"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Topics"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_view" />
+
+    <ImageView
+        android:id="@+id/imageViewmap"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/text11"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmusıc"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:srcCompat="@drawable/social_media"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageViewexer"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/text12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewmap"
+        app:layout_constraintTop_toBottomOf="@+id/textView40"
+        app:srcCompat="@drawable/piyasa" />
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="Music"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageViewmusıc"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="    map"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewmap"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewmap" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="exercise"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewexer"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewexer" />
+
+    <ImageView
+        android:id="@+id/imageViewfılm"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewmusıc"
+        app:layout_constraintTop_toTopOf="@+id/text10"
+        app:srcCompat="@drawable/filmler_icon"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="   videos"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewfılm"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewfılm" />
+
+    <ImageView
+        android:id="@+id/imageViewworld"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="50dp"
+        android:contentDescription="News Image"
+        android:onClick="btn_gundem"
+        app:layout_constraintStart_toEndOf="@+id/imageViewfılm"
+        app:layout_constraintTop_toTopOf="@+id/imageViewfılm"
+        app:srcCompat="@drawable/gundem" />
+
+    <TextView
+        android:id="@+id/text14"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="   news"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewworld"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewworld" />
+
+    <ImageView
+        android:id="@+id/imageViewspor"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewexer"
+        app:layout_constraintTop_toTopOf="@+id/imageViewworld"
+        app:srcCompat="@drawable/sports" />
+
+    <TextView
+        android:id="@+id/text15"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="   game"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/imageViewspor"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewspor" />
+
+    <ImageView
+        android:id="@+id/imageViewmusıc"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        app:srcCompat="@drawable/music"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

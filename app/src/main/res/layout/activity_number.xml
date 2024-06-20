@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/haberlerDelete1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/haberlerDelete"
+        app:srcCompat="@drawable/baseline_delete_24" />
+
+    <ImageView
+        android:id="@+id/haberlerDelete2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/haberlerDelete1"
+        app:srcCompat="@drawable/baseline_delete_24" />
+
+    <TextView
+        android:id="@+id/haberlerHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginBottom="32dp"
+        android:text="PERSONS"
+        android:textColor="#FBFBFB"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/haberlerReplicaToolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.827" />
+
+    <TextView
+        android:id="@+id/haberlerReplicaToolbar"
+        android:layout_width="410dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="152dp"
+        android:backgroundTint="#F44336"
+        android:text="PERS                        NUMBER                         EDİT    DELETE"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/haberlerText"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:text="0532 321 23 23"
+        app:layout_constraintTop_toTopOf="@id/haberlerReplicaToolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="130dp"
+        android:textColor="#FBFBFB"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/haberlerText1"
+        android:layout_width="105dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="436dp"
+        android:text="0546 212 42 45"
+        android:textColor="#FBFBFB"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/haberlerText2"
+        android:layout_width="125dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="600dp"
+        android:text="0543 329 90 32"
+        android:textColor="#FBFBFB"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ImageView
+        android:id="@+id/haberlerImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Haberler sayfasi image view"
+        android:onClick="haber_button4"
+        app:layout_constraintBaseline_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/haberlerReplicaToolbar"
+        app:srcCompat="@drawable/senol" />
+
+    <ImageView
+        android:id="@+id/haberlerImage1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="72dp"
+        android:contentDescription="Haberler sayfasi image view1"
+        android:onClick="haber_button5"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/haberlerImage"
+        app:srcCompat="@drawable/kardes" />
+
+    <ImageView
+        android:id="@+id/haberlerImage2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="548dp"
+        android:contentDescription="Haberler sayfasi image vivew2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mom" />
+
+    <ImageView
+        android:id="@+id/haberlerAdminImage"
+        android:layout_width="77dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBaseline_toTopOf="@id/haberlerDelete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/haberlerDelete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_delete_24" />
+
+    <ImageView
+        android:id="@+id/haberlerEdit2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toEndOf="@+id/haberlerText2"
+        app:layout_constraintTop_toTopOf="@id/haberlerEdit1"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/haberlerEdit1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintStart_toEndOf="@+id/haberlerText1"
+        app:layout_constraintTop_toTopOf="@id/haberlerEdit"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageView
+        android:id="@+id/haberlerEdit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintStart_toEndOf="@+id/haberlerText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

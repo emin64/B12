@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/usher"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back, Let's Get Started"
+        android:textColor="#239382"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_marginStart="60dp"/>
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="78dp"
+        android:background="@drawable/edittext_backgrand"
+        android:drawableLeft="@drawable/mail"
+        android:drawablePadding="15dp"
+        android:elevation="3dp"
+        android:padding="13dp"
+        android:hint="Email"
+        android:textColor="#888887"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_marginTop="17dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_backgrand"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="15dp"
+        android:elevation="3dp"
+        android:padding="13dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#888887"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"         />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sing In"
+        android:padding="9dp"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="120dp"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Don't Have An Account?"
+        android:textStyle="bold"
+        android:layout_marginStart="120dp"
+        />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="16dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold"
+        android:layout_marginStart="170dp"
+        />
+</LinearLayout>
